@@ -1,15 +1,15 @@
 .header {
-
-}
-
-.header-top {
-  padding: 20px 10px 15px;
-  background: #f72210;
   position: fixed;
   z-index: 2;
   top: 0;
   left: 0;
   right: 0;
+  max-width: 1310px;
+}
+
+.header-top {
+  padding: 20px 10px 15px;
+  background: #f72210;
 }
 
 .header-date {
@@ -31,4 +31,21 @@
 
 .header-login-subscribe {
   padding-right: 15px;
+}
+
+.header-links-text {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.header-links-text a {
+  color: black;
+}
+
+.container-fluid {
+  max-width: 1310px;
+}
+
+.header-links-container {
+  border-bottom: 1px solid #dedede;
 }
