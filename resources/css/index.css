@@ -4,7 +4,6 @@
   top: 0;
   left: 0;
   right: 0;
-  max-width: 1310px;
 }
 
 .header-top {
@@ -33,19 +32,61 @@
   padding-right: 15px;
 }
 
-.header-links-text {
+.header-links {
   font-size: 19px;
   font-weight: 700;
 }
 
-.header-links-text a {
+.categories-first {
+  border-left-width: 0px;
+}
+
+.header-links-categories ul {
+  margin-bottom: 0px;
+}
+
+.header-links-categories ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.header-links-categories ul li a:hover,
+.header-links-categories ul li a:focus {
+  color: #f72210;
+}
+
+.header-links-trending {
+  padding: 14px 0px 14px;
+  margin-top: 13px;
+  border-top: 2px solid rgb(244, 245, 247);
+  border-bottom: 2px solid rgb(244, 245, 247);
+}
+
+.header-links-trending ul {
+  font-size: 17px;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.header-links-trending ul li:first-child a {
   color: black;
 }
 
-.container-fluid {
-  max-width: 1310px;
+.header-links-trending ul li:first-child a:hover,
+.header-links-trending ul li:first-child a:focus {
+  color: black;
+  cursor: text;
 }
 
-.header-links-container {
-  border-bottom: 1px solid #dedede;
+.header-links-trending ul li a {
+  color: #807f84;
+  text-decoration: none;
+}
+
+.header-links-trending ul li a:hover,
+.header-links-trending ul li a:focus {
+  color: #f72210;
 }
