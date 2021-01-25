@@ -90,3 +90,36 @@
 .header-links-trending ul li a:focus {
   color: #f72210;
 }
+
+.footer-content {
+  margin-top: 220px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.footer-content-main {
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.news-link svg {
+  width: 236px;
+  height: 36px;
+  fill: #f72210;
+}
+.footer-copyright-text {
+  font-family: 'Arial','Helvetica',sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+}
+.socialmedia-icon {
+  color: #666;
+  font-size: 24px;
+  line-height: 30px;
+}
+.color-black {
+  color: black;
+}
