@@ -14,7 +14,7 @@
 .header-date {
   color: white;
   font-size: 16px;
-  font-weight: 400px;
+  font-weight: 400;
   font-family: "Roboto Condensed", sans-serif;
   line-height: 34px;
   padding-left: 20px;
@@ -38,11 +38,11 @@
 }
 
 .categories-first {
-  border-left-width: 0px;
+  border-left-width: 0;
 }
 
 .header-links-categories ul {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .header-links-categories ul li a {
@@ -56,7 +56,7 @@
 }
 
 .header-links-trending {
-  padding: 14px 0px 14px;
+  padding: 14px 0 14px;
   margin-top: 13px;
   border-top: 2px solid rgb(244, 245, 247);
   border-bottom: 2px solid rgb(244, 245, 247);
@@ -68,7 +68,7 @@
   line-height: 16px;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .header-links-trending ul li:first-child a {
@@ -103,23 +103,27 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
 .news-link svg {
   width: 236px;
   height: 36px;
   fill: #f72210;
 }
+
 .footer-copyright-text {
-  font-family: 'Arial','Helvetica',sans-serif;
+  font-family: 'Arial', 'Helvetica', sans-serif;
   font-size: 12px;
   line-height: 12px;
   text-transform: uppercase;
   color: #666;
 }
+
 .socialmedia-icon {
   color: #666;
   font-size: 24px;
   line-height: 30px;
 }
+
 .color-black {
   color: black;
 }
