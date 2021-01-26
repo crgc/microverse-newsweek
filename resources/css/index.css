@@ -47,6 +47,11 @@
   margin-bottom: 0;
 }
 
+.header-links-trending ul li a {
+  color: #807f84;
+  text-decoration: none;
+}
+
 .header-links-categories ul li a:hover,
 .header-links-categories ul li a:focus {
   color: #f72210;
@@ -66,11 +71,6 @@
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 0;
-}
-
-.header-links-trending ul li a {
-  color: #807f84;
-  text-decoration: none;
 }
 
 .header-links-trending ul li:first-child a {
