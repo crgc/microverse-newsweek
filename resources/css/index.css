@@ -124,6 +124,16 @@
   line-height: 30px;
 }
 
-.color-black {
-  color: black;
+.colwrap .col1, .colwrap .col2 {
+  float: left;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.colwrap .col3 {
+  float: left;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
