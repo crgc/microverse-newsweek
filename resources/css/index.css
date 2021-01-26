@@ -1,14 +1,15 @@
 .header {
-  position: fixed;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  right: 0;
+
 }
 
 .header-top {
   padding: 20px 10px 15px;
   background: #f72210;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .header-date {
@@ -32,7 +33,12 @@
   padding-right: 15px;
 }
 
+.btn-yellow {
+  background-color: #ffe400;
+}
+
 .header-links {
+  margin-top: 85px;
   font-size: 19px;
   font-weight: 700;
 }
@@ -45,11 +51,6 @@
   margin-bottom: 0;
 }
 
-.header-links-categories ul li a {
-  color: black;
-  text-decoration: none;
-}
-
 .header-links-categories ul li a:hover,
 .header-links-categories ul li a:focus {
   color: #f72210;
@@ -57,7 +58,7 @@
 
 .header-links-trending {
   padding: 14px 0 14px;
-  margin-top: 13px;
+  margin-top: 4px;
   border-top: 2px solid rgb(244, 245, 247);
   border-bottom: 2px solid rgb(244, 245, 247);
 }
@@ -91,8 +92,32 @@
   color: #f72210;
 }
 
+.colwrap {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .col-right {
+    width: 29%;
+  }
+
+  .col-left {
+    width: 71%;
+  }
+}
+
+.col-right {
+  height: 500px;
+  background-color: goldenrod;
+}
+
+.col-right .col-left {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .footer-content {
-  margin-top: 220px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -122,18 +147,4 @@
   color: #666;
   font-size: 24px;
   line-height: 30px;
-}
-
-.colwrap .col1, .colwrap .col2 {
-  float: left;
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.colwrap .col3 {
-  float: left;
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
 }
