@@ -1,5 +1,13 @@
+body {
+  overflow-x: hidden;
+}
+
+.datediv {
+  width: 40vh;
+}
+
 .header-top {
-  padding: 20px 10px 15px;
+  padding-bottom: 20px;
   background: #f72210;
   position: fixed;
   z-index: 2;
@@ -19,6 +27,7 @@
 
 .header-logo {
   cursor: pointer;
+  width: 106px;
 }
 
 .header-logo svg {
@@ -68,31 +77,33 @@
   font-size: 17px;
   font-size: 16px;
   line-height: 16px;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 0;
-}
-
-.header-links-trending ul li:first-child a {
-  color: black;
-}
-
-.header-links-trending ul li a:hover,
-.header-links-trending ul li a:focus {
-  color: #f72210;
-}
-
-.header-links-trending ul li:first-child a:hover,
-.header-links-trending ul li:first-child a:focus {
-  color: black;
-  cursor: text;
 }
 
 .colwrap {
   max-width: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  .colwrap {
+    padding-top: 9vh;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .colwrap {
+    padding-top: 11vh;
+  }
+}
+
 @media screen and (min-width: 992px) {
+  .header-top {
+    padding: 20px 10px 15px;
+  }
+
+  .header-logo {
+    width: 396px;
+  }
+
   .col-right {
     width: 29%;
   }
@@ -150,4 +161,9 @@
   border-radius: 50%;
   text-align: center;
   margin: 6px auto;
+}
+
+.top5-spam {
+  max-width: 90%;
+  margin-left: 1.5vh;
 }
