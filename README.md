@@ -47,7 +47,7 @@ in the project settings there is a section called github pages that will let you
 
 👤 **Author1**
 
-- GitHub: Carlos Guzman - [ChuckBucketHead](https://github.com/chuckbuckethead)
+- GitHub: Carlos Gonzalez - [ChuckBucketHead](https://github.com/chuckbuckethead)
 
 👤 **Author2**
 
