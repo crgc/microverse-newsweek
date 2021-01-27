@@ -21,7 +21,7 @@ No Live Demo available yet.
 
 ## Getting Started
 
-- Run this command in your OS terminal: `git clone https://github.com/JuanDavid31/tnw-clone.git` to get a copy of the project.
+- Run this command in your OS terminal: `git clone https://github.com/chuckbuckethead/microverse-newsweek/` to get a copy of the project.
 - To run the project open the `index.html` file in a web browser.
 
 
