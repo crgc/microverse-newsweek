@@ -2,7 +2,7 @@
 
 # Microverse Newsweek
 
-> This is a clone of [Newsweek](https://thenextweb.com/) website. 
+> This is a clone of [Newsweek](https://thenextweb.com/) website.
 
 ![Screenshot](resources/screenshot.jpg)
 
@@ -45,13 +45,15 @@ in the project settings there is a section called github pages that will let you
 
 ## Authors
 
-👤 **Author1**
+👤 **Carlos González**
 
-- GitHub: Carlos Guzman - [ChuckBucketHead](https://github.com/chuckbuckethead)
+- GitHub: [@chuckbuckethead](https://github.com/chuckbuckethead)
+- Twitter: [@aclerkofpomier](https://twitter.com/aclerkofpomier)
+- LinkedIn: [Carlos González](https://www.linkedin.com/in/chuckbuckethead/)
 
-👤 **Author2**
+👤 **Camilo Patiño**
 
-- GitHub: Camilo Patino - [LoxiasCam](https://github.com/LoxiasCam)
+- GitHub: Camilo Patiño - [LoxiasCam](https://github.com/LoxiasCam)
 
 ## 🤝 Contributing
 
@@ -69,4 +71,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://es.wikipedia.org/wiki/Licencia_MIT) licensed.
+This project is [MIT](https://www.mit.edu/~amini/LICENSE.md) licensed.
