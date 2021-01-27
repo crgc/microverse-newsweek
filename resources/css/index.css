@@ -167,3 +167,49 @@ body {
   max-width: 90%;
   margin-left: 1.5vh;
 }
+
+.bottom-section {
+  margin-top: 30px;
+}
+
+.magazine-title {
+  font-size: 19px;
+  font-style: bold;
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 19px;
+  margin-bottom: 15px;
+  border-bottom: solid 1px rgb(217, 217, 217);
+  text-transform: uppercase;
+}
+
+.magazine-title .title-icon {
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(../img/newsweek-n-logo.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+.magazine-first-row {
+  align-items: flex-end;
+}
+
+.article-category .category {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 26px;
+}
+
+.article-category .left {
+  background-color: #f72210;
+  color: white;
+  margin-right: 6px;
+}
+
+.article-category .right {
+  color: #f72210;
+  margin-right: 6px;
+}
