@@ -17,7 +17,6 @@ body {
 }
 
 .header-date {
-  color: white;
   font-size: 16px;
   font-weight: 400;
   font-family: "Roboto Condensed", sans-serif;
@@ -45,25 +44,10 @@ body {
 .header-links {
   margin-top: 85px;
   font-size: 19px;
-  font-weight: 700;
 }
 
 .categories-first {
   border-left-width: 0;
-}
-
-.header-links-categories ul {
-  margin-bottom: 0;
-}
-
-.header-links-trending ul li a {
-  color: #807f84;
-  text-decoration: none;
-}
-
-.header-links-categories ul li a:hover,
-.header-links-categories ul li a:focus {
-  color: #f72210;
 }
 
 .header-links-trending {
@@ -174,12 +158,10 @@ body {
 
 .bottom-section-title {
   font-size: 19px;
-  font-weight: 700;
   font-family: "Roboto Condensed", sans-serif;
   line-height: 19px;
   margin-bottom: 15px;
   border-bottom: solid 1px rgb(217, 217, 217);
-  text-transform: uppercase;
 }
 
 .bottom-section-title .title-icon {
@@ -197,7 +179,6 @@ body {
 
 .article-category .category {
   font-size: 16px;
-  font-weight: 700;
   font-family: "Roboto Condensed", sans-serif;
   line-height: 26px;
 }
