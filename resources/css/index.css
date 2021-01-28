@@ -168,7 +168,7 @@ body {
   margin-top: 30px;
 }
 
-.magazine-title {
+.bottom-section-title {
   font-size: 19px;
   font-weight: 700;
   font-family: "Roboto Condensed", sans-serif;
@@ -178,7 +178,7 @@ body {
   text-transform: uppercase;
 }
 
-.magazine-title .title-icon {
+.bottom-section-title .title-icon {
   flex: none;
   display: block;
   width: 29px;
