@@ -113,10 +113,6 @@ body {
   }
 }
 
-.col-right {
-  height: 500px;
-}
-
 .col-right .col-left {
   width: 100%;
   padding-left: 15px;
