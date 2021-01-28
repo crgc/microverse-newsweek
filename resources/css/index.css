@@ -208,3 +208,7 @@ body {
   color: #f72210;
   margin-right: 6px;
 }
+
+.newspaper-section-title {
+  border-top: solid 1px rgb(217, 217, 217);  
+}
