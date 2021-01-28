@@ -87,6 +87,10 @@ body {
   .colwrap {
     padding-top: 9vh;
   }
+
+  .newsletter-spam-img {
+    height: 170px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -211,4 +215,8 @@ body {
 
 .newspaper-section-title {
   border-top: solid 1px rgb(217, 217, 217);  
+}
+
+.newsletter-spam-img {
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
 }
