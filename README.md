@@ -16,7 +16,7 @@ This is a clone from a snapshot of the Newsweek website from January 20, 2021, i
 
 ## Live Demo
 
-No Live Demo available yet.
+[Live Demo Link](https://chuckbuckethead.github.io/microverse-newsweek/)
 
 
 ## Getting Started
