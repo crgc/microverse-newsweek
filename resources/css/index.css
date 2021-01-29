@@ -75,6 +75,15 @@ body {
   max-width: 100%;
 }
 
+.title-icon {
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(../img/newsweek-n-logo.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 768px) {
   .colwrap {
     padding-top: 9vh;
