@@ -6,6 +6,14 @@ body {
   width: 40vh;
 }
 
+.text-red {
+  color: #f72210;
+}
+
+.bg-red {
+  background-color: #f72210;
+}
+
 .header-top {
   padding-bottom: 20px;
   background: #f72210;
