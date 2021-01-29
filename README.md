@@ -2,9 +2,9 @@
 
 # Microverse Newsweek
 
-> This is a clone of [Newsweek](https://thenextweb.com/) website.
+> Mobile-first clone of the [Newsweek](https://thenextweb.com/) homepage.
 
-![Screenshot](resources/screenshot.jpg)
+![Screenshot](resources/screenshot.png)
 
 This is a clone from a snapshot of the Newsweek website from January 20, 2021, it's focused on replicating a website using Bootstrap
 
